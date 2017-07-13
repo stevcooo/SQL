@@ -7,6 +7,7 @@ sp_FindTable is SQL procedure that helps you find in witch tables is used some c
 exec sp_FindTable 'Employee'
 ```
 Results:
+
 | Table | Column |
 | ------ | ------ |
 | Appointments | EmployeeId |
