@@ -23,3 +23,5 @@ You can also include this procedure in SQL Management studio shortcuts and use i
   -![shortcustsExample](https://raw.githubusercontent.com/stevcooo/SQL/master/Resources/sqlQueryShortcuts.png)
  - Please note that this requires to restart the SQL Management studio.
  - After you have setup the shorcut, you can select some text and click the shortcute (in the example Ctrl+3) and the procedure will be executed and you will get the tables that have column with name like the text you have selected.
+ 
+- ![sample](https://raw.githubusercontent.com/stevcooo/SQL/master/Resources/sample.gif)
