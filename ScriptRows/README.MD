@@ -43,20 +43,20 @@ GO
 Exec sp_ScriptRows @table = 'SampleTable', @where = 'VarcharColumn1 like ''4%'''
 ```
 
-SET QUOTED_IDENTIFIER OFF
-GO
-INSERT INTO SampleTable
-([VarcharColumn1],[VarcharColumn2],[VarcharColumn3],[BigintColumn1],[BigintColumn2],[BigintColumn3],[DateTimeColumn1],[DateTimeColumn2],[DateTimeColumn3])
-VALUES
-("4735B2C5-32F9-45DB-8F23-2563A9300B81","66B8F5DE-DB71-407D-8962-37EF00438A6E","5B71213D-1FCD-436F-8B76-119F76774F9D","1111111","222222","333333","Jul 25 2017  1:56PM","Jul 25 2017  1:56PM","Jul 25 2017  1:56PM")
-GO
-INSERT INTO SampleTable
-([VarcharColumn1],[VarcharColumn2],[VarcharColumn3],[BigintColumn1],[BigintColumn2],[BigintColumn3],[DateTimeColumn1],[DateTimeColumn2],[DateTimeColumn3])
-VALUES
-("4AE9A4C5-6C9F-46D3-AD71-E59A69000D3B","AAF8CE1E-B9DA-4198-A792-C012DAF9B1E1","18168095-9BAB-47EC-8930-CAC55B9FE63C","1111111","222222","333333","Jul 25 2017  1:56PM","Jul 25 2017  1:56PM","Jul 25 2017  1:56PM")
-GO
-SET QUOTED_IDENTIFIER ON
-GO
+SET QUOTED_IDENTIFIER OFF  
+GO  
+INSERT INTO SampleTable  
+([VarcharColumn1],[VarcharColumn2],[VarcharColumn3],[BigintColumn1],[BigintColumn2],[BigintColumn3],[DateTimeColumn1],[DateTimeColumn2],[DateTimeColumn3])  
+VALUES  
+("4735B2C5-32F9-45DB-8F23-2563A9300B81","66B8F5DE-DB71-407D-8962-37EF00438A6E","5B71213D-1FCD-436F-8B76-119F76774F9D","1111111","222222","333333","Jul 25 2017  1:56PM","Jul 25 2017  1:56PM","Jul 25 2017  1:56PM")  
+GO  
+INSERT INTO SampleTable  
+([VarcharColumn1],[VarcharColumn2],[VarcharColumn3],[BigintColumn1],[BigintColumn2],[BigintColumn3],[DateTimeColumn1],[DateTimeColumn2],[DateTimeColumn3])  
+VALUES  
+("4AE9A4C5-6C9F-46D3-AD71-E59A69000D3B","AAF8CE1E-B9DA-4198-A792-C012DAF9B1E1","18168095-9BAB-47EC-8930-CAC55B9FE63C","1111111","222222","333333","Jul 25 2017  1:56PM","Jul 25 2017  1:56PM","Jul 25 2017  1:56PM")  
+GO  
+SET QUOTED_IDENTIFIER ON  
+GO  
 
 
 # Example 3
