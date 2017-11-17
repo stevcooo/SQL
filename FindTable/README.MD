@@ -17,11 +17,11 @@ Results:
 | PosSessions | EmployeeClosedId |
 
 # TIP
-You can also include this procedure in SQL Management studio shortcuts and use it more easly:
+You can also include this procedure in SQL Management studio shortcuts and use it more easily:
   - In SQL Management Studio open Tools->Options->Environment->Keyboard->Query Shortcuts
-  - Here choose withc shortcut you like, and in the StoredProcedure column write sp_FindTable (i'm using Ctrl+3)
+  - Here choose with shortcut you like, and in the StoredProcedure column write sp_FindTable (i'm using Ctrl+3)
   -![shortcustsExample](https://raw.githubusercontent.com/stevcooo/SQL/master/Resources/sqlQueryShortcuts.png)
- - Please note that this requires to restart the SQL Management studio.
- - After you have setup the shorcut, you can select some text and click the shortcute (in the example Ctrl+3) and the procedure will be executed and you will get the tables that have column with name like the text you have selected.
+ - Please note that this requires restarting the SQL Management studio.
+ - After you have setup the shortcut, you can select some text and click the shortcut (in the example Ctrl+3) and the procedure will be executed and you will get the tables that have a column with a name like the text you have selected.
  
 - ![sample](https://raw.githubusercontent.com/stevcooo/SQL/master/Resources/sample.gif)
