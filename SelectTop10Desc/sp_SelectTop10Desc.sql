@@ -1,5 +1,5 @@
 /*
-	exec sp_SelectTop10Desc 'Venues'
+	exec sp_SelectTop10Desc 'Cars'
 */
 if exists (select * from sys.procedures where name = 'sp_SelectTop10Desc')
 	drop procedure sp_SelectTop10Desc
